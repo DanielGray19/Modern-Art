@@ -1,31 +1,39 @@
 # Modern-Art
 
-Modern Art Exhibition
+### Modern Art Exhibition
+#
 
-function getTitlesInLocation(location)
+##### parameter(list)- The location is returned in a list
 
-parameter(list)- The location is returned in a list
+##### return (list) - the list of paintings in that is in that location
 
-return (list) - the list of paintings in that is in that location
+**`function getTitlesInLocation(location)`**
 
-function getArtist(title)
+#
 
-parameter(string)- the title of the painting
+##### parameter(string)- the title of the painting
 
-return(string)- the artist based on the title 
+##### return(string)- the artist based on the title 
 
-function getPrice(title)
+**`function getArtist(title)`**
 
-parameter(string)-The title of the painting
+#
+##### parameter(string)-The title of the painting
 
-return(string)- The price of the painting based off the title
+##### return(string)- The price of the painting based off the title
+**`function getPrice(title)`**
 
-function getMedium(title)
+#
 
-parameter(string)- The title of the painting
+##### parameter(string)- The title of the painting
 
-return(string)- The medium of the painting based on the title
+##### return(string)- The medium of the painting based on the title
 
-function getAvgPrice()
+**`function getMedium(title)`*
 
-return(number)- The average price of all the paintings
+#
+
+##### return(number)- The average price of all the paintings
+**`function getAvgPrice()`**
+
+#
